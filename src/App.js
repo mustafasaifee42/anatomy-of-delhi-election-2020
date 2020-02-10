@@ -176,10 +176,10 @@ function App() {
         <div className='share share-top'>
           <span className='footer-start'>Share the <span aria-label="love-emoji" role="img">💖</span></span>
           <div className='icons'>
-            <FacebookShareButton url='https://anatomy-of-delhi-election.netlify.com/' quote="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election via @mustafasaifee42">
+            <FacebookShareButton url='https://anatomy-of-delhi-election.netlify.com/' quote="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election">
               <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
-            <TwitterShareButton url='https://anatomy-of-delhi-election.netlify.com/' title="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election">
+            <TwitterShareButton url='https://anatomy-of-delhi-election.netlify.com/' title="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election via @mustafasaifee42">
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
           </div>
@@ -248,10 +248,10 @@ function App() {
         <div className='share'>
           <span className='footer-start'>You got all the way down here, consider sharing the <span aria-label="love-emoji" role="img">💖</span></span>
           <div className='icons'>
-            <FacebookShareButton url='https://anatomy-of-delhi-election.netlify.com/' quote="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election via @mustafasaifee42">
+            <FacebookShareButton url='https://anatomy-of-delhi-election.netlify.com/' quote="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election">
               <FacebookIcon size={32} round={true} />
             </FacebookShareButton>
-            <TwitterShareButton url='https://anatomy-of-delhi-election.netlify.com/' title="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election">
+            <TwitterShareButton url='https://anatomy-of-delhi-election.netlify.com/' title="Anatomy of Delhi assembly election 2020: Wealth, criminal cases, gender, age and education qualification of every candidate in the election via @mustafasaifee42">
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
           </div>
