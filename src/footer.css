@@ -1,0 +1,34 @@
+
+.footer{
+  margin-top: 75px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-size: 16px;
+  padding: 20px;  
+  line-height: 28px;
+}
+
+.footer-content{
+  max-width: 1024px;
+  font-size: 14px;
+  line-height: 24px;
+  margin:auto;
+  padding-top:25px;
+  margin-top: 20px;
+  border-top: 1px solid #fff;
+}
+
+.email{
+  text-align: center;
+}
+
+.share{
+  display: flex;
+  justify-content: center;
+  margin-top:15px;
+}
+.react-share__ShareButton{
+  margin:0 5px;
+}
+.icons{
+  margin: 0 5px;
+}

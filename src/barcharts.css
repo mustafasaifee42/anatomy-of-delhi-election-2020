@@ -1,0 +1,23 @@
+.bars{
+  margin:5px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color:#fff;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding:10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bar-content{
+  padding: 0 10px;
+}
+
+.bar-graph-container{
+  margin:10px 0 0 0
+}
+
+.bar-note{
+  vertical-align: top;
+}

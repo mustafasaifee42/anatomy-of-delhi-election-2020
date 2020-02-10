@@ -1,0 +1,35 @@
+.container{
+  margin: auto;
+  max-width: 720px; 
+  margin-top: 20px;
+  padding:0 20px;
+}
+
+.quote{
+  font-size: 24px;
+  line-height: 36px;
+  margin: 30px 0;
+  padding-left: 15px;
+  border-left: 2px solid rgb(224, 62, 62);
+  font-style: italic;
+}
+
+.first-para{
+  margin-top: 40px;
+}
+
+.section-title{
+  background-color: #414141;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px;
+  margin: 40px 0;
+  font-size: 16px;
+  display: inline;
+
+}
+
+.subnote{
+  font-size: 16px;
+}

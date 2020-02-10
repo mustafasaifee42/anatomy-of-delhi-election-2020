@@ -1,0 +1,352 @@
+[
+    {
+      "x_coordinate": 14,
+      "y_coordinate": 1,
+      "AC_NO": "1"
+    },
+    {
+      "x_coordinate": 3,
+      "y_coordinate": 2,
+      "AC_NO": "7"
+    },
+    {
+      "x_coordinate": 11,
+      "y_coordinate": 2,
+      "AC_NO": "5"
+    },
+    {
+      "x_coordinate": 13,
+      "y_coordinate": 2,
+      "AC_NO": "2"
+    },
+    {
+      "x_coordinate": 15,
+      "y_coordinate": 2,
+      "AC_NO": "70"
+    },
+    {
+      "x_coordinate": 17,
+      "y_coordinate": 2,
+      "AC_NO": "69"
+    },
+    {
+      "x_coordinate": 4,
+      "y_coordinate": 3,
+      "AC_NO": "6"
+    },
+    {
+      "x_coordinate": 6,
+      "y_coordinate": 3,
+      "AC_NO": "13"
+    },
+    {
+      "x_coordinate": 8,
+      "y_coordinate": 3,
+      "AC_NO": "14"
+    },
+    {
+      "x_coordinate": 10,
+      "y_coordinate": 3,
+      "AC_NO": "4"
+    },
+    {
+      "x_coordinate": 12,
+      "y_coordinate": 3,
+      "AC_NO": "3"
+    },
+    {
+      "x_coordinate": 14,
+      "y_coordinate": 3,
+      "AC_NO": "66"
+    },
+    {
+      "x_coordinate": 16,
+      "y_coordinate": 3,
+      "AC_NO": "67"
+    },
+    {
+      "x_coordinate": 18,
+      "y_coordinate": 3,
+      "AC_NO": "68"
+    },
+    {
+      "x_coordinate": 1,
+      "y_coordinate": 4,
+      "AC_NO": "8"
+    },
+    {
+      "x_coordinate": 3,
+      "y_coordinate": 4,
+      "AC_NO": "9"
+    },
+    {
+      "x_coordinate": 5,
+      "y_coordinate": 4,
+      "AC_NO": "12"
+    },
+    {
+      "x_coordinate": 7,
+      "y_coordinate": 4,
+      "AC_NO": "16"
+    },
+    {
+      "x_coordinate": 9,
+      "y_coordinate": 4,
+      "AC_NO": "17"
+    },
+    {
+      "x_coordinate": 11,
+      "y_coordinate": 4,
+      "AC_NO": "18"
+    },
+    {
+      "x_coordinate": 13,
+      "y_coordinate": 4,
+      "AC_NO": "20"
+    },
+    {
+      "x_coordinate": 15,
+      "y_coordinate": 4,
+      "AC_NO": "65"
+    },
+    {
+      "x_coordinate": 17,
+      "y_coordinate": 4,
+      "AC_NO": "64"
+    },
+    {
+      "x_coordinate": 19,
+      "y_coordinate": 4,
+      "AC_NO": "63"
+    },
+    {
+      "x_coordinate": 4,
+      "y_coordinate": 5,
+      "AC_NO": "10"
+    },
+    {
+      "x_coordinate": 6,
+      "y_coordinate": 5,
+      "AC_NO": "15"
+    },
+    {
+      "x_coordinate": 8,
+      "y_coordinate": 5,
+      "AC_NO": "26"
+    },
+    {
+      "x_coordinate": 10,
+      "y_coordinate": 5,
+      "AC_NO": "25"
+    },
+    {
+      "x_coordinate": 12,
+      "y_coordinate": 5,
+      "AC_NO": "19"
+    },
+    {
+      "x_coordinate": 14,
+      "y_coordinate": 5,
+      "AC_NO": "22"
+    },
+    {
+      "x_coordinate": 16,
+      "y_coordinate": 5,
+      "AC_NO": "61"
+    },
+    {
+      "x_coordinate": 18,
+      "y_coordinate": 5,
+      "AC_NO": "60"
+    },
+    {
+      "x_coordinate": 20,
+      "y_coordinate": 5,
+      "AC_NO": "62"
+    },
+    {
+      "x_coordinate": 5,
+      "y_coordinate": 6,
+      "AC_NO": "11"
+    },
+    {
+      "x_coordinate": 7,
+      "y_coordinate": 6,
+      "AC_NO": "29"
+    },
+    {
+      "x_coordinate": 9,
+      "y_coordinate": 6,
+      "AC_NO": "27"
+    },
+    {
+      "x_coordinate": 11,
+      "y_coordinate": 6,
+      "AC_NO": "24"
+    },
+    {
+      "x_coordinate": 13,
+      "y_coordinate": 6,
+      "AC_NO": "23"
+    },
+    {
+      "x_coordinate": 15,
+      "y_coordinate": 6,
+      "AC_NO": "21"
+    },
+    {
+      "x_coordinate": 17,
+      "y_coordinate": 6,
+      "AC_NO": "58"
+    },
+    {
+      "x_coordinate": 19,
+      "y_coordinate": 6,
+      "AC_NO": "59"
+    },
+    {
+      "x_coordinate": 6,
+      "y_coordinate": 7,
+      "AC_NO": "31"
+    },
+    {
+      "x_coordinate": 8,
+      "y_coordinate": 7,
+      "AC_NO": "28"
+    },
+    {
+      "x_coordinate": 10,
+      "y_coordinate": 7,
+      "AC_NO": "39"
+    },
+    {
+      "x_coordinate": 12,
+      "y_coordinate": 7,
+      "AC_NO": "44"
+    },
+    {
+      "x_coordinate": 14,
+      "y_coordinate": 7,
+      "AC_NO": "40"
+    },
+    {
+      "x_coordinate": 16,
+      "y_coordinate": 7,
+      "AC_NO": "41"
+    },
+    {
+      "x_coordinate": 18,
+      "y_coordinate": 7,
+      "AC_NO": "57"
+    },
+    {
+      "x_coordinate": 20,
+      "y_coordinate": 7,
+      "AC_NO": "56"
+    },
+    {
+      "x_coordinate": 3,
+      "y_coordinate": 8,
+      "AC_NO": "35"
+    },
+    {
+      "x_coordinate": 5,
+      "y_coordinate": 8,
+      "AC_NO": "32"
+    },
+    {
+      "x_coordinate": 7,
+      "y_coordinate": 8,
+      "AC_NO": "37"
+    },
+    {
+      "x_coordinate": 9,
+      "y_coordinate": 8,
+      "AC_NO": "30"
+    },
+    {
+      "x_coordinate": 11,
+      "y_coordinate": 8,
+      "AC_NO": "38"
+    },
+    {
+      "x_coordinate": 13,
+      "y_coordinate": 8,
+      "AC_NO": "43"
+    },
+    {
+      "x_coordinate": 15,
+      "y_coordinate": 8,
+      "AC_NO": "42"
+    },
+    {
+      "x_coordinate": 17,
+      "y_coordinate": 8,
+      "AC_NO": "55"
+    },
+    {
+      "x_coordinate": 4,
+      "y_coordinate": 9,
+      "AC_NO": "34"
+    },
+    {
+      "x_coordinate": 6,
+      "y_coordinate": 9,
+      "AC_NO": "33"
+    },
+    {
+      "x_coordinate": 8,
+      "y_coordinate": 9,
+      "AC_NO": "36"
+    },
+    {
+      "x_coordinate": 10,
+      "y_coordinate": 9,
+      "AC_NO": "45"
+    },
+    {
+      "x_coordinate": 12,
+      "y_coordinate": 9,
+      "AC_NO": "50"
+    },
+    {
+      "x_coordinate": 14,
+      "y_coordinate": 9,
+      "AC_NO": "51"
+    },
+    {
+      "x_coordinate": 16,
+      "y_coordinate": 9,
+      "AC_NO": "54"
+    },
+    {
+      "x_coordinate": 11,
+      "y_coordinate": 10,
+      "AC_NO": "48"
+    },
+    {
+      "x_coordinate": 13,
+      "y_coordinate": 10,
+      "AC_NO": "49"
+    },
+    {
+      "x_coordinate": 15,
+      "y_coordinate": 10,
+      "AC_NO": "52"
+    },
+    {
+      "x_coordinate": 17,
+      "y_coordinate": 10,
+      "AC_NO": "53"
+    },
+    {
+      "x_coordinate": 12,
+      "y_coordinate": 11,
+      "AC_NO": "47"
+    },
+    {
+      "x_coordinate": 11,
+      "y_coordinate": 12,
+      "AC_NO": "46"
+    }
+  ]

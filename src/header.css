@@ -1,0 +1,51 @@
+
+.header-wrap{
+  margin: auto;
+  max-width: 1024px;
+  position: relative; 
+}
+.header-subtext{
+  font-weight: 500;
+  font-size: 30px;
+}
+.header-title{
+  line-height: 1.8;
+}
+
+.header{
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-size: 36px;
+  padding: 100px 20px;  
+  line-height: 48px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.header-span{
+  background-color: #fff;
+  font-weight: 700;
+  color: #414141;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;  
+  padding: .875rem;
+  display: inline;
+}
+
+.share-header{
+  max-width: 1024px;
+  margin: 5px auto 75px auto;
+  font-size: 14px;
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.reading-time{
+  font-style: italic;
+  font-weight: 700;
+}
+.share-top{
+  justify-content: start;
+  padding: 0px 10px;
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "x_coordinate": 9,
+    "y_coordinate": 1,
+    "AC_NO": "1",
+    "constituency": "NARELA",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 10,
+    "y_coordinate": 2,
+    "AC_NO": "2",
+    "constituency": "BURARI",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 12,
+    "y_coordinate": 2,
+    "AC_NO": "70",
+    "constituency": "KARAWAL NAGAR",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 16,
+    "y_coordinate": 2,
+    "AC_NO": "69",
+    "constituency": "MUSTAFABAD",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 3,
+    "y_coordinate": 3,
+    "AC_NO": "7",
+    "constituency": "BAWANA",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 7,
+    "y_coordinate": 3,
+    "AC_NO": "5",
+    "constituency": "BADLI",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 9,
+    "y_coordinate": 3,
+    "AC_NO": "4",
+    "constituency": "ADARSH NAGAR",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 11,
+    "y_coordinate": 3,
+    "AC_NO": "3",
+    "constituency": "TIMARPUR",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 13,
+    "y_coordinate": 3,
+    "AC_NO": "66",
+    "constituency": "GHONDA",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 15,
+    "y_coordinate": 3,
+    "AC_NO": "67",
+    "constituency": "BABARPUR",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 17,
+    "y_coordinate": 3,
+    "AC_NO": "68",
+    "constituency": "GOKALPUR",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 4,
+    "y_coordinate": 4,
+    "AC_NO": "6",
+    "constituency": "RITHALA",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 6,
+    "y_coordinate": 4,
+    "AC_NO": "13",
+    "constituency": "ROHINI",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 8,
+    "y_coordinate": 4,
+    "AC_NO": "14",
+    "constituency": "SHALIMAR BAGH",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 10,
+    "y_coordinate": 4,
+    "AC_NO": "17",
+    "constituency": "WAZIRPUR",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 12,
+    "y_coordinate": 4,
+    "AC_NO": "18",
+    "constituency": "MODEL TOWN",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 14,
+    "y_coordinate": 4,
+    "AC_NO": "65",
+    "constituency": "SEELAMPUR",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 16,
+    "y_coordinate": 4,
+    "AC_NO": "64",
+    "constituency": "ROHTAS NAGAR",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 18,
+    "y_coordinate": 4,
+    "AC_NO": "63",
+    "constituency": "SEEMA PURI",
+    "district": "NORTH-EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 1,
+    "y_coordinate": 5,
+    "AC_NO": "9",
+    "constituency": "KIRARI",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 3,
+    "y_coordinate": 5,
+    "AC_NO": "10",
+    "constituency": "SULTANPUR MAJRA",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 5,
+    "y_coordinate": 5,
+    "AC_NO": "12",
+    "constituency": "MANGOL PURI",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 7,
+    "y_coordinate": 5,
+    "AC_NO": "15",
+    "constituency": "SHAKUR BASTI",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 9,
+    "y_coordinate": 5,
+    "AC_NO": "16",
+    "constituency": "TRI NAGAR",
+    "district": "NORTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 11,
+    "y_coordinate": 5,
+    "AC_NO": "19",
+    "constituency": "SADAR BAZAR",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 13,
+    "y_coordinate": 5,
+    "AC_NO": "20",
+    "constituency": "CHANDNI CHOWK",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 15,
+    "y_coordinate": 5,
+    "AC_NO": "61",
+    "constituency": "GANDHI NAGAR",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 17,
+    "y_coordinate": 5,
+    "AC_NO": "62",
+    "constituency": "SHAHDARA",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 2,
+    "y_coordinate": 6,
+    "AC_NO": "8",
+    "constituency": "MUNDKA",
+    "district": "NORTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 4,
+    "y_coordinate": 6,
+    "AC_NO": "11",
+    "constituency": "NANGLOI JAT",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 6,
+    "y_coordinate": 6,
+    "AC_NO": "26",
+    "constituency": "MADIPUR",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 8,
+    "y_coordinate": 6,
+    "AC_NO": "25",
+    "constituency": "MOTI NAGAR",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 10,
+    "y_coordinate": 6,
+    "AC_NO": "24",
+    "constituency": "PATEL NAGAR",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 12,
+    "y_coordinate": 6,
+    "AC_NO": "23",
+    "constituency": "KAROL BAGH",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 14,
+    "y_coordinate": 6,
+    "AC_NO": "22",
+    "constituency": "BALLIMARAN",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 16,
+    "y_coordinate": 6,
+    "AC_NO": "60",
+    "constituency": "KRISHNA NAGAR",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 18,
+    "y_coordinate": 6,
+    "AC_NO": "59",
+    "constituency": "VISHWAS NAGAR",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 3,
+    "y_coordinate": 7,
+    "AC_NO": "31",
+    "constituency": "VIKASPURI",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 5,
+    "y_coordinate": 7,
+    "AC_NO": "29",
+    "constituency": "TILAK NAGAR",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 7,
+    "y_coordinate": 7,
+    "AC_NO": "27",
+    "constituency": "RAJOURI GARDEN",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 9,
+    "y_coordinate": 7,
+    "AC_NO": "39",
+    "constituency": "RAJINDER NAGAR",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 11,
+    "y_coordinate": 7,
+    "AC_NO": "40",
+    "constituency": "NEW DELHI",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 13,
+    "y_coordinate": 7,
+    "AC_NO": "21",
+    "constituency": "MATIA MAHAL",
+    "district": "CENTRAL",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 15,
+    "y_coordinate": 7,
+    "AC_NO": "58",
+    "constituency": "LAXMI NAGAR",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 17,
+    "y_coordinate": 7,
+    "AC_NO": "57",
+    "constituency": "PATPARGANJ",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 19,
+    "y_coordinate": 7,
+    "AC_NO": "56",
+    "constituency": "KONDLI",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 2,
+    "y_coordinate": 8,
+    "AC_NO": "35",
+    "constituency": "NAJAFGARH",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 4,
+    "y_coordinate": 8,
+    "AC_NO": "32",
+    "constituency": "UTTAM NAGAR",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 6,
+    "y_coordinate": 8,
+    "AC_NO": "30",
+    "constituency": "JANAKPURI",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 8,
+    "y_coordinate": 8,
+    "AC_NO": "28",
+    "constituency": "HARI NAGAR",
+    "district": "WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 10,
+    "y_coordinate": 8,
+    "AC_NO": "38",
+    "constituency": "DELHI CANTT",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 12,
+    "y_coordinate": 8,
+    "AC_NO": "44",
+    "constituency": "R K PURAM",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 14,
+    "y_coordinate": 8,
+    "AC_NO": "42",
+    "constituency": "KASTURBA NAGAR",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 16,
+    "y_coordinate": 8,
+    "AC_NO": "41",
+    "constituency": "JANGPURA",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 18,
+    "y_coordinate": 8,
+    "AC_NO": "55",
+    "constituency": "TRILOKPURI",
+    "district": "EAST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 9,
+    "y_coordinate": 9,
+    "AC_NO": "37",
+    "constituency": "PALAM",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 11,
+    "y_coordinate": 9,
+    "AC_NO": "33",
+    "constituency": "DWARKA",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 13,
+    "y_coordinate": 9,
+    "AC_NO": "43",
+    "constituency": "MALVIYA NAGAR",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 15,
+    "y_coordinate": 9,
+    "AC_NO": "50",
+    "constituency": "GREATER KAILASH",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 17,
+    "y_coordinate": 9,
+    "AC_NO": "51",
+    "constituency": "KALKAJI",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 19,
+    "y_coordinate": 9,
+    "AC_NO": "54",
+    "constituency": "OKHLA",
+    "district": "NEW DELHI",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 3,
+    "y_coordinate": 9,
+    "AC_NO": "34",
+    "constituency": "MATIALA",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 10,
+    "y_coordinate": 10,
+    "AC_NO": "36",
+    "constituency": "BIJWASAN",
+    "district": "SOUTH-WEST",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 12,
+    "y_coordinate": 10,
+    "AC_NO": "45",
+    "constituency": "MEHRAULI",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 14,
+    "y_coordinate": 10,
+    "AC_NO": "48",
+    "constituency": "AMBEDKAR NAGAR",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 16,
+    "y_coordinate": 10,
+    "AC_NO": "49",
+    "constituency": "SANGAM VIHAR",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 18,
+    "y_coordinate": 10,
+    "AC_NO": "52",
+    "constituency": "TUGHLAKABAD",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 20,
+    "y_coordinate": 10,
+    "AC_NO": "53",
+    "constituency": "BADARPUR",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 15,
+    "y_coordinate": 11,
+    "AC_NO": "47",
+    "constituency": "DEOLI",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  },
+  {
+    "x_coordinate": 14,
+    "y_coordinate": 12,
+    "AC_NO": "46",
+    "constituency": "CHHATARPUR",
+    "district": "SOUTH",
+    "sub_region": "",
+    "state": "Delhi"
+  }
+]
