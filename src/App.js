@@ -21,8 +21,13 @@ import {
   FacebookIcon,
   TwitterIcon,
 } from 'react-share';
+import ReactGA from 'react-ga';
 
 
+
+ReactGA.initialize('UA-158122106-1');
+ReactGA.set({ anonymizeIp: true });
+ReactGA.pageview('/');
 
 function App() {
   
