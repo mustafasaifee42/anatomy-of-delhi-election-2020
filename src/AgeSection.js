@@ -31,8 +31,8 @@ class ProjectCards extends Component {
           <div className='section-title'>
             Age Diversity
           </div>  
-          <div className='first-para'>For contesting an election in India the minimum age limit is <span className='bold'>25 years</span>. The age range of candidates in this election is from 25 years to 80 years. 80 years old <span className='bold'>Yadubansh Singh</span> is the oldest candidate, he is from <span className='bold'>Proutist Bloc, India</span> contesting from <span className='italics'>BADARPUR</span> seat. <span className='italics'>8 candidates have note declared their age.</span></div>
-          <div className='red quote'>Median age of all the candidates in this election is <span className='bold'>{Math.round(medianAge)} years</span></div>
+          <div className='first-para'>For contesting an election in India the minimum age limit is <span className='bold'>25 years</span>. The age range of candidates in this election is from 25 years to 80 years. 80 years old <span className='bold'>Yadubansh Singh</span> is the oldest candidate, he is from <span className='bold'>Proutist Bloc, India</span> party and contesting from <span className='italics'>BADARPUR</span> seat. <span className='italics'>8 candidates have note declared their age.</span></div>
+          <div className='red quote'>Median age of candidates in this election is <span className='bold'>{Math.round(medianAge)} years</span></div>
         </div>
         <div className='age-graph-container'>
           <AgeGraph

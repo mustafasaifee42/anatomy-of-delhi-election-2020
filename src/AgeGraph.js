@@ -84,7 +84,7 @@ class ProjectCards extends Component {
     for(let i = 0; i < Object.keys(this.props.colorObj).length; i++){
       svg.append('rect')
         .attrs({
-          'x':20,
+          'x':5,
           'y':20 + i * 20,
           'fill':this.props.colorObj[Object.keys(this.props.colorObj)[i]],
           'width':12,
@@ -92,7 +92,7 @@ class ProjectCards extends Component {
         })
       svg.append('text')
         .attrs({
-          'x':35,
+          'x':20,
           'y':20 + i * 20 + 10,
           'fill':this.props.colorObj[Object.keys(this.props.colorObj)[i]],
           'font-family':'IBM Plex Sans',

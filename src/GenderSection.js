@@ -45,9 +45,9 @@ class ProjectCards extends Component {
           <div className='section-title'>
             Gender Diversity
           </div>  
-          <div className='first-para'>In 2020, out of {this.props.data.length} contestant, only <span className='bold'>{this.props.dataByGender[1].values.length}</span> are females, which is less than <span className='bold'>{Math.floor(this.props.dataByGender[1].values.length * 100 / this.props.data.length)}%</span> of the whole field and there were no candidates from the third gender.</div>
+          <div className='first-para'>In 2020, out of {this.props.data.length} contestant, only <span className='bold'>{this.props.dataByGender[1].values.length}</span> are females, which is less than <span className='bold'>{Math.ceil(this.props.dataByGender[1].values.length * 100 / this.props.data.length)}%</span> of the whole field and there were no candidates from the third gender.</div>
           <div className='red quote'>Only <span className='bold'>1 in {Math.round(this.props.data.length / this.props.dataByGender[1].values.length)}</span> candidate contesting elections is a female</div>
-          <div className='red quote'><span className='bold'>{70 - noOfConstituencyWithWomen} constituencies</span> out of 70 (~33 %) have no one women candidate. About <span className='bold'>1 in every 3</span> contituencies have <span className='bold'>no representation</span> from women.</div>
+          <div className='red quote'><span className='bold'>{70 - noOfConstituencyWithWomen} constituencies</span> out of 70 (~33 %) have no one women candidate i.e <span className='bold'>1 in every 3</span> contituencies have no female representation</div>
           <div>This highlights a problem of gender bias in these elections. <span className='bold italics'>"One factor driving this is a bias on the part of political parties, the notion that women candidates cannot be relied on to win elections. They are believed to lack access to the political networks and resources that men have."</span> - Sudipta Sarangi (professor of economics in Louisiana State University) and Chandani K Jha (a doctoral student in LSU) wrote in an article in <a href="https://www.thehindubusinessline.com/opinion/gender-bias-in-indian-elections/article22995090.ece" rel="noopener noreferrer" target='_blank'>Business Standard</a>.</div>
           <table>
             <thead>
@@ -64,7 +64,7 @@ class ProjectCards extends Component {
         </div>
         <div className='maps-container'>
           <div className='map-container'>            
-            <div className='bar-note'><span className='bold'>23 out of 70</span> constituencies have no female candidates contesting elections.<br /><br /><span className='bold'>SHALIMAR BAGH</span> has 5 female candidates contesting election.</div>
+            <div className='bar-note'><span className='bold'>23 out of 70</span> constituencies have no female candidates contesting elections.<br /><br /><span className='bold'>SHALIMAR BAGH</span> has 5 female candidates (out of 12) contesting election.</div>
             <br />
             <div className='subnote'>Percentage of women candidate</div>
             <BarGraph
