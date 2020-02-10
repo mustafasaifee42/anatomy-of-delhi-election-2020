@@ -21,7 +21,7 @@ import {
   FacebookIcon,
   TwitterIcon,
 } from 'react-share';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga'; 
 
 
 
