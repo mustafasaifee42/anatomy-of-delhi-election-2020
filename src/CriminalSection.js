@@ -86,10 +86,10 @@ class ProjectCards extends Component {
               domain={[1,2,3,4]}
               translateY = {10}
               colorValue = {["#e1e1e1", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]}
-              labels={['0 candidates','1 candidate','2 candidates','3 candidates','4+ candidates']}
-              legendWidth={[80,80,80,80,80]}
-              legendPosX={[0,80,160,240,320]}
-              labelPosX={[40,120,200,280,360]}
+              labels={['0 cand. with cases','1 cand. with cases','2 cand. with cases','3 cand. with cases','4+ cand. with cases']}
+              legendWidth={[90,90,90,90,90]}
+              legendPosX={[0,90,180,270,360]}
+              labelPosX={[45,135,225,315,405]}
               case={true}
               formatNumber={false}
             />
