@@ -83,11 +83,11 @@ class ProjectCards extends Component {
         </div>
         <div className='maps-container'>
           <div className='map-container'>
-            <div className='bold'>Median Wealth </div>
+            <div className='bold'>Median Wealth  of the candidates</div>
             <br />
-            <div className='bar-note'><span className='bold'>PATEL NAGAR</span> contituency has the highest median net assets <span className='italics'>(Rs 6 10 65 560)</span><br /><br /><span className='bold'>MODEL TOWN</span> contituency has the lowest median net assets <span className='italics'>(Rs. 2 83 355.5)</span>.</div>
+            <div className='bar-note'>Candidates representing <span className='bold'>PATEL NAGAR</span> contituency has the highest median net assets <span className='italics'>(Rs 6 10 65 560)</span><br /><br />Candidates representing <span className='bold'>MODEL TOWN</span> contituency has the lowest median net assets <span className='italics'>(Rs. 2 83 355.5)</span>.</div>
             <br />
-            <div className='subnote'>Median net assets</div>
+            <div className='subnote'>Median net assets of the candidates</div>
             <BarGraph
               barList = {partyArry}
               barWidth = {medianAssets}

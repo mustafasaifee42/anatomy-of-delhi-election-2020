@@ -59,7 +59,7 @@ class ProjectCards extends Component {
           <div className='map-container'>
             <div className='bar-note'><span className='bold'>Arvind Kejriwal</span> from <span className='bold'>Aam Aadmi Party</span> contesting from <span className='bold'>NEW DELHI</span> seat has the most cases (13 cases) against him.</div>
             <br />
-            <div className='subnote'>Percentage of candidate criminal cases against them</div>
+            <div className='subnote'>Percentage of candidate with criminal cases against them</div>
             <BarGraph
               barList = {partyArry}
               barWidth = {medianAssets}
