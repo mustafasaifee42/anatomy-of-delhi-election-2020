@@ -93,7 +93,7 @@ class ProjectCards extends Component {
               domain={[1,2]}
               translateY = {50}
               colorValue = {["#e1e1e1", '#fcae91', "#a50f15"]}
-              labels={['No Woman Candidates','1 Woman Candidate','More than 1 Woman Candidate']}
+              labels={['No women candidates','1 woman candidate','2 or more women candidates']}
               legendYoffset = {65}
               hightlight={"14"}
               textOffset={20}
