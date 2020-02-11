@@ -87,16 +87,14 @@ class ProjectCards extends Component {
             <Map
               hexRadius = {Math.min((wid - 50) / (12 * Math.sqrt(3)),20)}
               width={Math.min(wid,460)}
-              height={Math.min(wid + 70,530)}
+              height={Math.min(wid + 40,500)}
               data={this.props.dataByContituency}
               color={'noOfFemaleCandidates'}
               domain={[1,2]}
               translateY = {50}
               colorValue = {["#e1e1e1", '#fcae91', "#a50f15"]}
               labels={['No Woman Candidates','1 Woman Candidate','More than 1 Woman Candidate']}
-              legendWidth={[150,150,150]}
-              legendPosX={[0,150,300]}
-              labelPosX={[75,225,375]}
+              legendYoffset = {65}
               hightlight={"14"}
               textOffset={20}
               note={'Shalimar Bagh has the highest women candidates: 5'}

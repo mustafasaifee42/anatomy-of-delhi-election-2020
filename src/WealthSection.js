@@ -105,16 +105,14 @@ class ProjectCards extends Component {
             <Map
               hexRadius = {Math.min((wid - 50) / (12 * Math.sqrt(3)),20)}
               width={Math.min(wid,460)}
-              height={Math.min(wid + 70,530)}
+              height={Math.min(wid + 50,510)}
               data={this.props.dataByContituency}
               color={'MedianAssets'}
               domain={[1000000, 2500000, 5000000, 10000000]}
               translateY = {50}
               colorValue = {["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]}
-              labels={['0-10L','10L-25L','25-50L','50L-1Cr','1Cr+']}
-              legendWidth={[30,45,75,150,30]}
-              legendPosX={[0,30,75,150,300]}
-              labelPosX={[15,55.5,112.5,225,315]}
+              labels={['Rs. 0-10L','Rs. 10L-25L','Rs. 25L-50L','Rs. 50L-1Cr','Rs. 1Cr+']}
+              legendYoffset = {105}
               formatNumber={true}
               hightlight={"24"}
               textOffset={10}
@@ -150,16 +148,14 @@ class ProjectCards extends Component {
               <Map
                 hexRadius = {Math.min((wid - 50) / (12 * Math.sqrt(3)),20)}
                 width={Math.min(wid,460)}
-                height={Math.min(wid + 70,530)}
+                height={Math.min(wid + 50,510)}
                 data={this.props.dataByContituency}
                 color={'PercentageCr'}
                 domain={[20, 40, 60, 80]}
                 translateY = {50}
                 colorValue = {['#c7eae5','#80cdc1','#35978f','#01665e','#003c30']}
                 labels={['0-20%','20-40%','40-60%','60-80%','80-100%']}
-                legendWidth={[75,75,75,75,75]}
-                legendPosX={[0,75,150,225,300]}
-                labelPosX={[37.5,112.5,187.5,262.5,337.5]}
+                legendYoffset = {105}
                 formatNumber={false}
                 percentage={true}
                 hightlight={"8"}

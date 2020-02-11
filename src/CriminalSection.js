@@ -80,16 +80,14 @@ class ProjectCards extends Component {
             <Map
               hexRadius = {Math.min((wid - 50) / (12 * Math.sqrt(3)),20)}
               width={Math.min(wid,460)}
-              height={Math.min(wid + 30,490)}
+              height={Math.min(wid,460)}
               data={this.props.dataByContituency}
               color={'noOfSeriousCriminal'}
               domain={[1,2,3,4]}
               translateY = {0}
               colorValue = {["#e1e1e1", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]}
-              labels={['0 cand. with cases','1 cand. with cases','2 cand. with cases','3 cand. with cases','4+ cand. with cases']}
-              legendWidth={[90,90,90,90,90]}
-              legendPosX={[0,90,180,270,360]}
-              labelPosX={[45,135,225,315,405]}
+              labels={['0 candidates with cases','1 candidate with cases','2 candidates with cases','3 candidates with cases','> 4 candidates with cases']}
+              legendYoffset = {105}
               case={true}
               formatNumber={false}
             />

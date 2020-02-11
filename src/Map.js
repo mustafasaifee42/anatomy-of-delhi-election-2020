@@ -160,26 +160,27 @@ class ProjectCards extends Component {
     let legendG = select(node)
       .append('g')
       .attrs({
-        'transform':`translate(5,${this.props.height - 30})`
+        'transform':`translate(30,${this.props.height - this.props.legendYoffset})`
       })
     for(let i = 0; i < this.props.labels.length; i++){
       legendG.append('rect')
         .attrs({
-          'x':this.props.legendPosX[i],
-          'y':10,
-          'height':10,
-          'width':this.props.legendWidth[i],
+          'x':0,
+          'y':i * 20,
+          'height':15,
+          'width':15,
           'fill':this.props.colorValue[i]
         })
       if(this.props.labels)
         legendG.append('text')
           .text(this.props.labels[i])
           .attrs({
-            'x':this.props.labelPosX[i],
-            'y':30,
+            'x':20,
+            'y':i * 20,
+            'dy':12,
             'font-family':'IBM Plex Sans',
-            'font-size':10,
-            'text-anchor':'middle',
+            'font-size':12,
+            'text-anchor':'start',
           })
     }
   }
