@@ -171,8 +171,8 @@
     "state": "Delhi"
   },
   {
-    "x_coordinate": 1,
-    "y_coordinate": 5,
+    "x_coordinate": 2,
+    "y_coordinate": 4,
     "AC_NO": "9",
     "constituency": "KIRARI",
     "district": "NORTH-WEST",
@@ -252,8 +252,8 @@
     "state": "Delhi"
   },
   {
-    "x_coordinate": 2,
-    "y_coordinate": 6,
+    "x_coordinate": 1,
+    "y_coordinate": 5,
     "AC_NO": "8",
     "constituency": "MUNDKA",
     "district": "NORTH-WEST",
