@@ -99,7 +99,7 @@
     "state": "Delhi"
   },
   {
-    "x_coordinate": 4,
+    "x_coordinate": 6,
     "y_coordinate": 4,
     "AC_NO": "6",
     "constituency": "RITHALA",
@@ -108,8 +108,8 @@
     "state": "Delhi"
   },
   {
-    "x_coordinate": 6,
-    "y_coordinate": 4,
+    "x_coordinate": 5,
+    "y_coordinate": 3,
     "AC_NO": "13",
     "constituency": "ROHINI",
     "district": "NORTH-WEST",
@@ -171,7 +171,7 @@
     "state": "Delhi"
   },
   {
-    "x_coordinate": 2,
+    "x_coordinate": 4,
     "y_coordinate": 4,
     "AC_NO": "9",
     "constituency": "KIRARI",
@@ -252,8 +252,8 @@
     "state": "Delhi"
   },
   {
-    "x_coordinate": 1,
-    "y_coordinate": 5,
+    "x_coordinate": 2,
+    "y_coordinate": 4,
     "AC_NO": "8",
     "constituency": "MUNDKA",
     "district": "NORTH-WEST",
