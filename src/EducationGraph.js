@@ -45,7 +45,7 @@ class ProjectCards extends Component {
         'y':20,
         'width':d => xScale(d.value[0]['Percent']),
         'height':30,
-        'fill':'#f5a067'
+        'fill':'#70caa9'
       })
     g.append('text')
       .attrs({
@@ -64,7 +64,7 @@ class ProjectCards extends Component {
         'y':20,
         'width':d => xScale(d.value[1]['Percent']),
         'height':30,
-        'fill':'#3cafa4'
+        'fill':'#429d80'
       })
     g.append('text')
       .attrs({
@@ -83,7 +83,7 @@ class ProjectCards extends Component {
         'y':20,
         'width':d => xScale(d.value[2]['Percent']),
         'height':30,
-        'fill':'#914df3'
+        'fill':'#366f5c'
       })
     g.append('text')
       .attrs({
@@ -102,7 +102,7 @@ class ProjectCards extends Component {
         'y':0,
         'width':12,
         'height':12,
-        'fill':'#f5a067'
+        'fill':'#70caa9'
       })
     svg.append('text')
       .attrs({
@@ -121,7 +121,7 @@ class ProjectCards extends Component {
         'y':0,
         'width':12,
         'height':12,
-        'fill':'#3cafa4'
+        'fill':'#429d80'
       })
     svg.append('text')
       .attrs({
@@ -140,7 +140,7 @@ class ProjectCards extends Component {
         'y':0,
         'width':12,
         'height':12,
-        'fill':'#914df3'
+        'fill':'#366f5c'
       })
     svg.append('text')
       .attrs({

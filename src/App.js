@@ -32,7 +32,7 @@ ReactGA.pageview('/');
 function App() {
   
   let colorObj = {
-    'NDA':'#FEB402',
+    'NDA':'#d6793a',
     'UPA':'#6BCAE2',
     'BSP':'#196F6B',
     'AAP':'#5AC877',

@@ -63,23 +63,6 @@ class ProjectCards extends Component {
           </div>  
           <div className='first-para' >Total net assets of all the candidates contesting the poll is in in excess of <span className='bold'>Rs. {Math.floor(totalMoney / 1000000000)} Billion (US$ {Math.floor(totalMoney * conversionRate / 1000000)} Million)</span>.</div>
           <div className='red quote'>The median net assets is <span className='bold'>Rs. {formatNumber(median)} (~ US$ {Math.round(median * conversionRate)})</span></div>
-          <div className='red quote'>About every <span className='bold'>1 in {Math.round(this.props.data.length / noOfCrorepati)} ({(noOfCrorepati * 100 / this.props.data.length).toFixed(1)}%)</span> candidate contesting elections is a crorepati (i.e. net assets > Rs. 1 00 00 000)</div>
-          <div>The richest candidate in the election is <span className='bold'>{this.props.data[0].candidate_name}</span> from <span className='bold'>{this.props.data[0].party_eci}</span> contesting from <span className='italics'>{this.props.data[0].constituency}</span> seat with net assets of <span className='italics'>Rs. {formatNumber(this.props.data[0].net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.data[0].net_assets * conversionRate))})</span>.</div>
-          <br />
-          <div>Richest candidate from <span className='bold'>UPA</span> is <span className='bold'>{this.props.majorPartiesArr[2].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[2].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[2].richestCandidate.net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.majorPartiesArr[2].richestCandidate.net_assets))})</span>. <span className='bold'>NDA's</span> richest candidate is <span className='bold'>{this.props.majorPartiesArr[1].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[1].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[1].richestCandidate.net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.majorPartiesArr[1].richestCandidate.net_assets))})</span>. </div>
-          <table>
-            <thead>
-              <tr>
-                <th>Party / Alliance</th>
-                <th className='assets'>Median Net Assets</th>
-                <th className='assets'>Total No. of Crorepati</th>
-                <th className='assets'>% of Crorepati</th>
-              </tr>
-            </thead>
-            <tbody>
-              {tableBodyCr}
-            </tbody>
-          </table>
         </div>
         <div className='maps-container'>
           <div className='map-container'>
@@ -110,7 +93,7 @@ class ProjectCards extends Component {
               color={'MedianAssets'}
               domain={[1000000, 2500000, 5000000, 10000000]}
               translateY = {50}
-              colorValue = {["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]}
+              colorValue = {["#dee8f1", "#a1bdd7", "#7492ae", "#50697e", "#34414e"]}
               labels={['Rs. 0-10L','Rs. 10L-25L','Rs. 25L-50L','Rs. 50L-1Cr','Rs. 1Cr+']}
               legendYoffset = {105}
               formatNumber={true}
@@ -122,49 +105,71 @@ class ProjectCards extends Component {
               note1={'MODEL TOWN (lowest Median net assets)'}
             />
           </div>
-          </div><div className='maps-container'>
-            <div className='map-container'>
-              <div className='bold'>Percentage of crorepati candidates</div>
-              <br />
-              <div className='bar-note'><span className='bold'>Dharampal Lakra</span> from <span className='bold'>AAP</span> contesting from <span className='italics'>MUNDKA</span> is the richest candidate with net assets <span className='italics'>Rs. 286 07 42 598</span><br /><br /><span className='bold'>Rohini</span> and <span className='bold'>Greater Kailash</span> has the highest percentage of crorepati candidates <span className='italics'>(85.7%)</span>.</div>
-              <br />
-              <div className='subnote'>Percentage of crorepati candidate</div>
-              <BarGraph
-                barList = {partyArry}
-                barWidth = {noOfCrPercent}
-                width={Math.min(wid,460)}
-                height={250}
-                barHeight = {20}
-                colorObj = {this.props.colorObj}
-                maxValue= {100}
-                maxValueAvailable={true}
-                line={(noOfCrorepati * 100 / this.props.data.length).toFixed(1)}
-                text={'All Candidates (%age of crorapatis)'}
-                secondaryText={secondaryText}
-                offsetSecondaryText={[85,85,85,85,100]}
-              />
-            </div>
-            <div className='map-container'>
-              <Map
-                hexRadius = {Math.min((wid - 50) / (12 * Math.sqrt(3)),20)}
-                width={Math.min(wid,460)}
-                height={Math.min(wid + 50,510)}
-                data={this.props.dataByContituency}
-                color={'PercentageCr'}
-                domain={[20, 40, 60, 80]}
-                translateY = {50}
-                colorValue = {['#c7eae5','#80cdc1','#35978f','#01665e','#003c30']}
-                labels={['0-20%','20-40%','40-60%','60-80%','80-100%']}
-                legendYoffset = {105}
-                formatNumber={false}
-                percentage={true}
-                hightlight={"8"}
-                textOffset={20}
-                note={'Richest candidate is Dharampal Lakra (AAP) from MUNDKA'}
-              />
-            </div>
+        </div>
+        <div className='container'>
+          <div>The richest candidate in the election is <span className='bold'>{this.props.data[0].candidate_name}</span> from <span className='bold'>{this.props.data[0].party_eci}</span> contesting from <span className='italics'>{this.props.data[0].constituency}</span> seat with net assets of <span className='italics'>Rs. {formatNumber(this.props.data[0].net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.data[0].net_assets * conversionRate))})</span>.</div>
+          <br />
+          <div>Richest candidate from <span className='bold'>UPA</span> is <span className='bold'>{this.props.majorPartiesArr[2].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[2].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[2].richestCandidate.net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.majorPartiesArr[2].richestCandidate.net_assets))})</span>. <span className='bold'>NDA's</span> richest candidate is <span className='bold'>{this.props.majorPartiesArr[1].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[1].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[1].richestCandidate.net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.majorPartiesArr[1].richestCandidate.net_assets))})</span>. </div>
+          <div className='red quote'>About every <span className='bold'>1 in {Math.round(this.props.data.length / noOfCrorepati)} ({(noOfCrorepati * 100 / this.props.data.length).toFixed(1)}%)</span> candidate contesting elections is a crorepati (i.e. net assets > Rs. 1 00 00 000)</div>
+        </div>
+        <div className='maps-container'>
+          <div className='map-container'>
+            <div className='bold'>Percentage of crorepati candidates</div>
+            <br />
+            <div className='bar-note'><span className='bold'>Dharampal Lakra</span> from <span className='bold'>AAP</span> contesting from <span className='italics'>MUNDKA</span> is the richest candidate with net assets <span className='italics'>Rs. 286 07 42 598</span><br /><br /><span className='bold'>Rohini</span> and <span className='bold'>Greater Kailash</span> has the highest percentage of crorepati candidates <span className='italics'>(85.7%)</span>.</div>
+            <br />
+            <div className='subnote'>Percentage of crorepati candidate</div>
+            <BarGraph
+              barList = {partyArry}
+              barWidth = {noOfCrPercent}
+              width={Math.min(wid,460)}
+              height={250}
+              barHeight = {20}
+              colorObj = {this.props.colorObj}
+              maxValue= {100}
+              maxValueAvailable={true}
+              line={(noOfCrorepati * 100 / this.props.data.length).toFixed(1)}
+              text={'All Candidates (%age of crorapatis)'}
+              secondaryText={secondaryText}
+              offsetSecondaryText={[85,85,85,85,100]}
+            />
           </div>
-        <div className='container'><hr /></div>
+          <div className='map-container'>
+            <Map
+              hexRadius = {Math.min((wid - 50) / (12 * Math.sqrt(3)),20)}
+              width={Math.min(wid,460)}
+              height={Math.min(wid + 60,520)}
+              data={this.props.dataByContituency}
+              color={'PercentageCr'}
+              domain={[1,20, 40, 60, 80]}
+              translateY = {50}
+              colorValue = {['#dddddd',"#dee8f1", "#a1bdd7", "#7492ae", "#50697e", "#34414e"]}
+              labels={['No crorepati','1-20%','20-40%','40-60%','60-80%','80-100%']}
+              legendYoffset = {115}
+              formatNumber={false}
+              percentage={true}
+              hightlight={"8"}
+              textOffset={20}
+              note={'Richest candidate is Dharampal Lakra (AAP) from MUNDKA'}
+            />
+          </div>
+        </div>
+        <div className='container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Party / Alliance</th>
+                <th className='assets'>Median Net Assets</th>
+                <th className='assets'>Total No. of Crorepati</th>
+                <th className='assets'>% of Crorepati</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tableBodyCr}
+            </tbody>
+          </table>
+          <hr />
+        </div>
       </div>
     )
   }

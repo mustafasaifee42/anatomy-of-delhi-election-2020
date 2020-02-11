@@ -46,12 +46,6 @@ class ProjectCards extends Component {
           <div className='first-para'>Indian election laws allow candidates accused in criminal cases to run so long as they have not been convicted.</div>
           <div className='red quote'>About every <span className='bold'>1 in {Math.round(this.props.data.length / noOfCriminalCandidate)} ({(noOfCriminalCandidate * 100 / this.props.data.length).toFixed(1)}%)</span> candidate contesting elections have criminal cases against them</div>
           <div><span className='bold'>{noOfCriminalCandidate}</span> out of {this.props.data.length} candidates have criminal case against them. Out of these, <span className='bold'>{noOfSeriousCriminalCandidate}</span> candidates have serous criminal cases against them.</div>
-          <br />
-          <div><span className='bold'>32 candidates</span> have declared cases related to <span className='bold'>crime against women</span>. Out of 32 candidates 1 candidate has declared cases related to rape (IPC Section-376). <span className='bold'>4 candidates</span> have declared cases related to <span className='bold'>attempt to murder</span> (IPC Section-307) against themselves. <span className='bold'>8 candidates</span> have declared cases related to <span className='bold'>hate speech</span>.</div>
-          <br />
-          <div>The candidate with most no. of criminal cases against him is <span className='bold'>{mostCriminal.candidate_name}</span> from <span className='bold'>{mostCriminal.party_eci}</span> contesting from <span className='italics'>{mostCriminal.constituency}</span> seat with <span className='italics'>{mostCriminal.criminal_cases} cases</span> against him.</div>
-          <br />
-          <div><span className='bold'>{this.props.majorPartiesArr[2].mostCasesCandidate.candidate_name}</span> from <span className='bold'>INC</span> contesting from <span className='italics'>{this.props.majorPartiesArr[2].mostCasesCandidate.constituency}</span> seat have <span className='italics'>{this.props.majorPartiesArr[2].mostCasesCandidate.criminal_cases} cases</span> declared against him (most for UPA). <span className='bold'>BJP's</span> <span className='bold'>{this.props.majorPartiesArr[1].mostCasesCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[1].mostCasesCandidate.constituency}</span> seat has <span className='italics'>{this.props.majorPartiesArr[1].mostCasesCandidate.criminal_cases} cases</span> against him (most for NDA). Candidate with most case against them from <span className='bold'>BSP</span> is <span className='bold'>{this.props.majorPartiesArr[3].mostCasesCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[3].mostCasesCandidate.constituency}</span> seat (<span className='italics'>{this.props.majorPartiesArr[3].mostCasesCandidate.criminal_cases} cases</span> declared against him).</div>
           <div className='red quote'><span className='bold'>{noOfConstituencyWithCriminal} constituencies</span> out of 70 (~86 %) have at least one candidate facing criminal charges</div>
           <div><span className='bold'>CHATTARPUR, TUGHLAKABAD</span> and <span className='bold'>WAZIRPUR</span> are the contituency where most candidate facing criminal charges are contesting (4 candidates).</div>  
         </div>
@@ -85,7 +79,7 @@ class ProjectCards extends Component {
               color={'noOfSeriousCriminal'}
               domain={[1,2,3,4]}
               translateY = {0}
-              colorValue = {["#e1e1e1", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]}
+              colorValue = {['#dddddd',"#dee8f1", "#a1bdd7", "#7492ae", "#50697e"]}
               labels={['0 candidates with cases','1 candidate with cases','2 candidates with cases','3 candidates with cases','> 4 candidates with cases']}
               legendYoffset = {105}
               case={true}
@@ -93,7 +87,14 @@ class ProjectCards extends Component {
             />
           </div>
         </div>
-        <div className='container'><hr /></div>
+        <div className='container'>
+          <div>The candidate with most no. of criminal cases against him is <span className='bold'>{mostCriminal.candidate_name}</span> from <span className='bold'>{mostCriminal.party_eci}</span> contesting from <span className='italics'>{mostCriminal.constituency}</span> seat with <span className='italics'>{mostCriminal.criminal_cases} cases</span> against him.</div>
+          <br />
+          <div><span className='bold'>{this.props.majorPartiesArr[2].mostCasesCandidate.candidate_name}</span> from <span className='bold'>INC</span> contesting from <span className='italics'>{this.props.majorPartiesArr[2].mostCasesCandidate.constituency}</span> seat have <span className='italics'>{this.props.majorPartiesArr[2].mostCasesCandidate.criminal_cases} cases</span> declared against him (most for UPA). <span className='bold'>BJP's</span> <span className='bold'>{this.props.majorPartiesArr[1].mostCasesCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[1].mostCasesCandidate.constituency}</span> seat has <span className='italics'>{this.props.majorPartiesArr[1].mostCasesCandidate.criminal_cases} cases</span> against him (most for NDA). Candidate with most case against them from <span className='bold'>BSP</span> is <span className='bold'>{this.props.majorPartiesArr[3].mostCasesCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[3].mostCasesCandidate.constituency}</span> seat (<span className='italics'>{this.props.majorPartiesArr[3].mostCasesCandidate.criminal_cases} cases</span> declared against him).</div>
+          <br />
+          <div><span className='bold'>32 candidates</span> have declared cases related to <span className='bold'>crime against women</span>. Out of 32 candidates 1 candidate has declared cases related to rape (IPC Section-376). <span className='bold'>4 candidates</span> have declared cases related to <span className='bold'>attempt to murder</span> (IPC Section-307) against themselves. <span className='bold'>8 candidates</span> have declared cases related to <span className='bold'>hate speech</span>.</div>
+          <hr />
+        </div>
       </div>
     )
   }
