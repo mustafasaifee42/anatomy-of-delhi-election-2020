@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BarGraph from './BarGraph';
 import formatNumber from './formatNumber.js';
-import formatNumberUS from './formatNumberUS.js';
 import Map from './Map'
 import './table.css'
 
@@ -107,9 +106,9 @@ class ProjectCards extends Component {
           </div>
         </div>
         <div className='container'>
-          <div>The richest candidate in the election is <span className='bold'>{this.props.data[0].candidate_name}</span> from <span className='bold'>{this.props.data[0].party_eci}</span> contesting from <span className='italics'>{this.props.data[0].constituency}</span> seat with net assets of <span className='italics'>Rs. {formatNumber(this.props.data[0].net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.data[0].net_assets * conversionRate))})</span>.</div>
+          <div>The richest candidate in the election is <span className='bold'>{this.props.data[0].candidate_name}</span> from <span className='bold'>{this.props.data[0].party_eci}</span> contesting from <span className='italics'>{this.props.data[0].constituency}</span> seat with net assets of <span className='italics'>Rs. {formatNumber(this.props.data[0].net_assets)}</span>.</div>
           <br />
-          <div>Richest candidate from <span className='bold'>UPA</span> is <span className='bold'>{this.props.majorPartiesArr[2].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[2].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[2].richestCandidate.net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.majorPartiesArr[2].richestCandidate.net_assets))})</span>. <span className='bold'>NDA's</span> richest candidate is <span className='bold'>{this.props.majorPartiesArr[1].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[1].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[1].richestCandidate.net_assets)} (~ US$ {formatNumberUS(Math.round(this.props.majorPartiesArr[1].richestCandidate.net_assets))})</span>. </div>
+          <div>Richest candidate from <span className='bold'>UPA</span> is <span className='bold'>{this.props.majorPartiesArr[2].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[2].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[2].richestCandidate.net_assets)}</span>. <span className='bold'>NDA's</span> richest candidate is <span className='bold'>{this.props.majorPartiesArr[1].richestCandidate.candidate_name}</span> contesting from <span className='italics'>{this.props.majorPartiesArr[1].richestCandidate.constituency}</span> seat with net assets worth <span className='italics'>Rs. {formatNumber(this.props.majorPartiesArr[1].richestCandidate.net_assets)}</span>. </div>
           <div className='red quote'>About every <span className='bold'>1 in {Math.round(this.props.data.length / noOfCrorepati)} ({(noOfCrorepati * 100 / this.props.data.length).toFixed(1)}%)</span> candidate contesting elections is a crorepati (i.e. net assets > Rs. 1 00 00 000)</div>
         </div>
         <div className='maps-container'>
